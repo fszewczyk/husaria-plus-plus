@@ -1,0 +1,56 @@
+zdefiniuj: define
+zawrzyj: include
+zwróć: return
+korzystając z: using
+przestrzeni nazw: namespace
+całkowita: int
+zmiennoprzecinkowa: float
+podwójna: double
+charakter: char
+sznurek: string
+ból: bool
+długa: long
+krótka: short
+automatyczna: auto
+zewnętrzna: extern
+stala: const
+oznaczona: unsigned
+nieoznaczona: unsigned
+chroniona: protected
+zarejestruj: register
+statyczna: static
+publiczna: public 
+prywatna: private
+klasa: class
+struktura: struct
+wzór: template
+ten: this
+rzuć: throw
+wprowadź definicję: typedef
+związek: union
+wirtualna: virtual
+funkcja: void
+wrażliwa: volatile
+rozmiar z: sizeof
+sczytaj: scanf
+wydrukuj: printf
+standardowo wejdź: cin
+standardowo wyjdź: cout
+koniec linii: endl
+jeżeli: if
+w przeciwnym wypadku: else
+dla: for
+przełącz: switch
+w przypadku: case
+złam: break
+dopóki: while
+zrób: do
+spróbuj: try
+złap: catch
+kontynuuj: continue
+domyślna: default
+usuń: delete
+idź do: goto
+w jednej linii: inline
+nowy: new
+główna: main
