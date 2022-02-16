@@ -14,7 +14,7 @@ krótka: short
 automatyczna: auto
 zewnętrzna: extern
 stala: const
-oznaczona: unsigned
+oznaczona: signed
 nieoznaczona: unsigned
 chroniona: protected
 zarejestruj: register
