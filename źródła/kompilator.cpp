@@ -28,8 +28,8 @@ bool doesContainSpaces( std::string s ){
 std::vector< std::pair <std::string,std::string> > załaduj(){
     std::vector< std::pair <std::string,std::string> > wielowyrazowe;
     std::fstream dict, dictHeader;
-    dict.open("dict.txt", std::ios::in);
-    dictHeader.open("src/dict.hpp", std::ios::out);
+    dict.open("słownik.txt", std::ios::in);
+    dictHeader.open("źródła/dict.hpp", std::ios::out);
 
     std::string delimiter(": "), alias, origin;
     std::pair <std::string, std::string> aliasPair;
@@ -56,14 +56,14 @@ std::vector< std::pair <std::string,std::string> > załaduj(){
 int main( int argc, char *argv[] ){
     std::vector< std::pair <std::string,std::string> > wielowyrazowe = załaduj();
 
-    std::ifstream filein("src/input.cpp");
-    std::ofstream fileout("src/temp.cpp");
+    std::ifstream filein("źródła/.input.cpp");
+    std::ofstream fileout("źródła/.temp.cpp");
 
     std::string contents = getfile(filein);
     fileout << "#include \"dict.hpp\"\n";
 
     for(int i = 0; i < wielowyrazowe.size(); i++){
-        std::ifstream filein("src/temp.cpp");
+        std::ifstream filein("źródła/.temp.cpp");
         find_and_replace( contents, wielowyrazowe[i].first, wielowyrazowe[i].second );
     }
     fileout<<contents;

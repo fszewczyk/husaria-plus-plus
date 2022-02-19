@@ -13,13 +13,13 @@ zasługuje nasz naród.
 ## Instalacja
 Po sciągnięciu repozytorium, wejdź do głównego folderu i uruchom w terminalu
 ```
-source setup.sh
+source montaż.sh
 ```
 
 Teraz wszystko jest gotowe, aby szerzyć polską dumę narodową. 
 
 ## Jak używać?
-Plik `dict.txt` zawiera wszystkie stworzone aliasy, czasem są intuicyjne, czasem trochę mniej.
+Plik `słownik.txt` zawiera wszystkie stworzone aliasy, czasem są intuicyjne, czasem trochę mniej.
 Najlepiej zobaczyć to na przykładzie:
 ```
 #zawrzyj <stdio.h>
@@ -32,7 +32,7 @@ całkowita główna( całkowita argc, charakter *argv[] ){
     zwróć 0;
 }
 ```
-Więcej przykładów jest w folderze [/examples](/examples). 
+Więcej przykładów jest w folderze [/przykłady](/przykłady). 
 Rozszerzenie pliku źródłowego nie ma znaczenia dla kompilatora, ale ja polecam używać
 .hpp (HusariaPlusPlus)
 
@@ -42,7 +42,7 @@ husaria++ file.hpp
 ```
 
 ## Chcesz wprowadzić własne zmiany?
-Dostosuj plik `dict.txt` do swoich potrzeb. Pamiętaj tylko o konwencji:
+Dostosuj plik `słownik.txt` do swoich potrzeb. Pamiętaj tylko o konwencji:
 ```
 polski: angielski
 ```
