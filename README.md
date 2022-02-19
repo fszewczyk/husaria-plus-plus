@@ -52,6 +52,6 @@ polski: angielski
 Tak, to jest żart. Kocham język angielski, jak i wiele języków
 programowania. Wszyscy jesteśmy równi i tak powinniśmy się traktować :)
 
-#### Czy to ma jakiekolwiek realna zastosowanie?
-Absolutnie nie, ten projekt jest strasznie dziurawy, źle zrobiony, bezużyteczny
+#### Czy to ma jakiekolwiek realne zastosowanie?
+Absolutnie nie, ten projekt jest strasznie dziurawy, źle zrobiony, bezużyteczny,
 korzysta z wielu złych praktyk i ma bardzo dużo edge-casów.

@@ -13,7 +13,7 @@ długa: long
 krótka: short
 automatyczna: auto
 zewnętrzna: extern
-stala: const
+stała: const
 oznaczona: signed
 nieoznaczona: unsigned
 chroniona: protected
