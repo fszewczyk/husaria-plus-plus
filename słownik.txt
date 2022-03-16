@@ -6,7 +6,7 @@ przestrzeni nazw: namespace
 całkowita: int
 zmiennoprzecinkowa: float
 podwójna: double
-charakter: char
+znak: char
 sznurek: string
 ból: bool
 długa: long
@@ -14,10 +14,10 @@ krótka: short
 automatyczna: auto
 zewnętrzna: extern
 stała: const
-oznaczona: signed
-nieoznaczona: unsigned
+ze znakiem: signed
+bez znaku: unsigned
 chroniona: protected
-zarejestruj: register
+rejestrowa: register
 statyczna: static
 publiczna: public 
 prywatna: private
@@ -29,7 +29,7 @@ rzuć: throw
 wprowadź definicję: typedef
 związek: union
 wirtualna: virtual
-funkcja: void
+pustka: void
 wrażliwa: volatile
 rozmiar z: sizeof
 sczytaj: scanf
@@ -44,7 +44,7 @@ przełącz: switch
 w przypadku: case
 złam: break
 dopóki: while
-zrób: do
+rób: do
 spróbuj: try
 złap: catch
 kontynuuj: continue
@@ -54,3 +54,5 @@ idź do: goto
 w jednej linii: inline
 nowy: new
 główna: main
+standardowa: std
+strzałka: vector

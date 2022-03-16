@@ -1,7 +1,7 @@
 #zawrzyj <stdio.h>
 #zawrzyj <iostream>
 
-korzystając z przestrzeni nazw std;
+korzystając z przestrzeni nazw standardowa;
 
 całkowita główna( całkowita argc, charakter *argv[] ){
 
