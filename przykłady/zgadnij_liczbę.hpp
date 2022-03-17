@@ -1,16 +1,16 @@
 #zawrzyj <stdio.h>
 #zawrzyj <iostream>
 
-korzystając z przestrzeni nazw std;
+korzystając z przestrzeni nazw standardowa;
 
-całkowita główna( całkowita argc, charakter *argv[] ){
+całkowita główna( całkowita argc, znak *argv[] ){
 
     podwójna n, m;
 
     wydrukuj("Wprowadź liczbę podwójną większą od 0\n");
     sczytaj("%lf", &n);
 
-    zrób{
+    rób{
         sczytaj("%lf", &m);
         jeżeli(m > n) wydrukuj("Mniej\n");
         w przeciwnym wypadku jeżeli(m < n) wydrukuj("Więcej\n");
