@@ -25,9 +25,9 @@ Najlepiej zobaczyć to na przykładzie:
 #zawrzyj <stdio.h>
 #zawrzyj <iostream>
 
-korzystając z przestrzeni nazw std;
+korzystając z przestrzeni nazw standardowa;
 
-całkowita główna( całkowita argc, charakter *argv[] ){
+całkowita główna( całkowita argc, znak *argv[] ){
     wydrukuj("Witaj świecie\n");
     zwróć 0;
 }
