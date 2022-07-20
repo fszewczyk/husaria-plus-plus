@@ -56,3 +56,56 @@ nowy: new
 główna: main
 standardowa: std
 strzałka: vector
+nałóż jako: alignas
+nałóź z: alignof
+i: and
+i_równe: and_eq
+skł: asm
+atomowa_anulacja: atomic_cancel
+atomowe_poświęcenie: atomic_commit
+atomowy_brakwyjątów: atomic_noexcept
+biti: bitand
+bitlub: bitor
+znak8_t: char8_t
+znak16_t: char16_t
+znak32_t: char32_t
+kompl: compl
+koncept: concept
+stała ewaluacja: consteval
+stała ekspresja: constexpr
+stała inicjalizacja: constinit
+stała_obsada: const_cast
+współ_czekaj: co_await
+współ_zwróć: co_return
+współ_uzyskaj: co_yield
+typ deklaracji: decltype
+dynamiczny_rzut: dynamic_cast
+odlicz: enum
+wyraźny: explicit
+eksportuj: export
+przyjaciel: friend
+mutowalna: mutable
+bez wyjątku: noexcept 
+nie: not 
+nie_równe: not_eq
+pusty wskaźnik: nullptr
+lub: or 
+lub_równe: or_eq
+refleksyjna ekspresja: reflexpr
+zreinterpretuj_rzut: reinterpret_cast
+wymaga: requires
+statyczne_upewnienie: static_assert
+statyczny_rzut: static_cast
+zsynchronizowany: synchronized
+wątek_lokalny: thread_local
+wprowadź identyfikator: typeid 
+wprowadź imię: typename
+wznak_t: wchar_t
+albo: xor
+albo_równe: xor_eq
+finalna: final 
+nadpisz: override
+transakcja_bezpieczna: transaction_safe
+transakcja_bezpieczna_dynamiczna: transaction_safe_dynamic
+importuj: import 
+moduł: module
